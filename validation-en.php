@@ -3,10 +3,6 @@
     // $username = "user";
     // $password = "user";
     // $dbname = "mail";
-    $servername = "localhost";
-    $username = "id11802559_user";
-    $password = "Lohan2009";
-    $dbname = "id11802559_hackers_poulette";
     $ip = $_SERVER["REMOTE_ADDR"];
     $date = date("Y-m-d H:i:s");
     $genderBrut= $_POST['gender'];

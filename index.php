@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
     if(isset($_POST['subject'])) {
         $vals = $_POST['subject'];
         var_dump($vals);
@@ -7,7 +7,7 @@
     }
     exit(); 
     }
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -49,7 +49,7 @@
                 <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">
+                            <a class="nav-link" href="#home"  alt="home">
                                <span></span>
                                <span></span>
                                <span></span>
@@ -58,7 +58,7 @@
                     
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#technologie">
+                            <a class="nav-link" href="#technologie"  alt="techno">
                             <span></span>
                                <span></span>
                                <span></span>
@@ -66,7 +66,7 @@
                             Technologie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#produces">
+                            <a class="nav-link" href="#produces"  alt="produces">
                             <span></span>
                                <span></span>
                                <span></span>
@@ -74,7 +74,7 @@
                             Produits</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">
+                            <a class="nav-link" href="#contact"  alt="contact">
                             <span></span>
                                <span></span>
                                <span></span>
@@ -82,7 +82,7 @@
                             Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index-en.php">
+                            <a class="nav-link" href="index-en.php"  alt="english">
                             <span></span>
                                <span></span>
                                <span></span>
@@ -102,7 +102,7 @@
                     <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <q>Vous donnerez vie à la technologie</q></p>
                         <div class="flex" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-                            <div class="indicator"><a href="#technologie">
+                            <div class="indicator"><a href="#technologie" alt="down">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -130,7 +130,7 @@
                     à des tutoriaux disponibles lors de vos achats.
                     </p>
                         <div class="flex" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                            <div class="indicator"><a href="#produces">
+                            <div class="indicator"><a href="#produces"  alt="down">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -160,7 +160,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" style="width: 18rem;">
-                            <input class ="check" type="checkbox" name="">
+                            <input class ="check" type="checkbox" label="open-card" >
                         <div class="toggle">+</div>
                             <div class="imBx">
                                     <img src="assets/img/rasp01.jpeg" class="card-img-top" alt="Raspberry PI V-1.0">
@@ -180,7 +180,7 @@
 
                 <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" style="width: 18rem;">
-                            <input class ="check" type="checkbox" name="">
+                            <input class ="check" type="checkbox" label="open-card">
                         <div class="toggle">+</div>
                             <div class="imBx">
                                     <img src="assets/img/rasp02.jpeg" class="card-img-top" alt="Raspberry PI V-2.3">
@@ -201,7 +201,7 @@
 
                 <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" style="width: 18rem;">
-                            <input class ="check" type="checkbox" name="">
+                            <input class ="check" type="checkbox" label="open-card">
                         <div class="toggle">+</div>
                             <div class="imBx">
                                     <img src="assets/img/rasp03.jpeg" class="card-img-top" alt="Raspberry PI V-4.2">
@@ -222,7 +222,7 @@
 
                 <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" style="width: 18rem;">
-                            <input class ="check" type="checkbox" name="">
+                            <input class ="check" type="checkbox" label="open-card">
                         <div class="toggle">+</div>
                             <div class="imBx">
                                     <img src="assets/img/rasp01.jpeg" class="card-img-top" alt="Raspberry PI V-1.0">
@@ -241,7 +241,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" style="width: 18rem;">
-                            <input class ="check" type="checkbox" name="">
+                            <input class ="check" type="checkbox" label="open-card">
                         <div class="toggle">+</div>
                             <div class="imBx">
                                     <img src="assets/img/rasp02.jpeg" class="card-img-top" alt="Raspberry PI V-2.3">
@@ -261,7 +261,7 @@
 
                 <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" style="width: 18rem;">
-                            <input class ="check" type="checkbox" name="">
+                            <input class ="check" type="checkbox" label="open-card">
                         <div class="toggle">+</div>
                             <div class="imBx">
                                     <img src="assets/img/rasp03.jpeg" class="card-img-top" alt="Raspberry PI V-4.2">
@@ -280,6 +280,7 @@
                     </div>
                 </div>
         </div>
+    </div>
     </section>
 
 <section class="contact" id="contact">
@@ -393,7 +394,7 @@
         </div>
 
     </footer>
-    <button id="buttonTop"><i class="fa fa-arrow-circle-up"></i></button>
+    <button id="buttonTop" aria-label="buttonTop"><i class="fa fa-arrow-circle-up"></i></button>
 
     <script src="assets/scripts/script.js"></script>
 
